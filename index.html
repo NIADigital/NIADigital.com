@@ -17,12 +17,12 @@
     </head>
     <body>
         <div id="app">
-            <input type="text" v-on:input="changeTitle" />
-            <p>{{ title }}</p>
 			<template>
 				<md-toolbar class="md-primary">
 					<h3 class="md-title">Primary</h3>
 				</md-toolbar>
+				<input type="text" v-on:input="changeTitle" />
+            <p>{{ title }}</p>
 			</template>
 
 			<style lang="scss" scoped>
