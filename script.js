@@ -11,7 +11,3 @@ new Vue({
 		}
 	}
 });
-
-export default {
-    name: 'RegularButtons'
-}
