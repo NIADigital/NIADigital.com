@@ -7,7 +7,7 @@ new Vue({
 	},
 	methods: {
 		changeTitle: function(event) {
-			this.title = event.target.value;
+			this.title = event.target.v-model;
 		}
 	}
 });
