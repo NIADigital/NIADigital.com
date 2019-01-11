@@ -1,19 +1,18 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="https://unpkg.com/@material-ui/core/umd/material-ui.production.min.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-</head>
-
-<body>
-<form netlify>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <input type="submit" value="Submit">
-</form>
-
-</body>
-</html
+    <head>
+        <meta name="generator"
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>NIADigital</title>
+        <link rel="stylesheet" href="" />
+		<script src="vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" v-on:input="changeTitle" />
+            <p>{{ title }}</p>
+        </div>
+		<script src="script.js"></script>
+    </body>
+</html>
