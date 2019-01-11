@@ -23,7 +23,10 @@
 				</md-toolbar>
 				<br />
 				<md-button>Aye!</md-button>
-				<input type="text" v-on:input="changeTitle" />
+				<md-field>
+					<label>Initial Value</label>
+					<md-input v-model="initial" v-on:input="changeTitle"></md-input>
+				</md-field>
             <p>{{ title }}</p>
 			</template>
 
